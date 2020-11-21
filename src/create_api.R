@@ -7,8 +7,8 @@ library(plumber)
 
 
 
-super_model <- readRDS('gbtree.rds')
-
+#super_model <- readRDS('gbtree.rds')
+super_model <- load("src/gbtree.RData")
 #* Sort df
 #* @param df
 #* @serializer json
