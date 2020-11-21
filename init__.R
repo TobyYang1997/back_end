@@ -15,6 +15,11 @@ source("src/create_api.R")
 
 # install necessary packages --- it would be better to create a function
 library(plumber)
+library(jsonlite)
+library(caret)
+library(dplyr)
+library(plumber)
+library(readr)
 
 # running the back-end (APIs) ---
 r <- plumb("src/create_api.R")

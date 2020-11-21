@@ -2,12 +2,12 @@ library(jsonlite)
 library(caret)
 library(dplyr)
 library(plumber)
+library(readr)
 
 
 
 
-
-super_model <- readRDS("src/gbtree.rds")
+super_model <- read_rds("src/gbtree.rds")
 #* Sort df
 #* @param df
 #* @serializer json
