@@ -7,7 +7,7 @@ library(plumber)
 
 
 
-super_model <- readRDS('src/gbtree.RDS')
+super_model <- readRDS('src/gbtree.rds')
 
 #* Sort df
 #* @param df

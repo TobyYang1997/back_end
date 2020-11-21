@@ -29,7 +29,7 @@ a <- paste0('{"new_data":', jsonlite::toJSON(new_add), '}', sep = '')
 class(a) <- "json"
 
 req <- httr::POST(
-  url = paste0("http://127.0.0.1:8080/__swagger__/"),
+  url = paste0("http://", e, ":", p, "/__swagger__/"),
   path = "credit_predict",
   httr::accept_json(),
   body = a,
