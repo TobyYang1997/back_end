@@ -20,6 +20,7 @@ library(caret)
 library(dplyr)
 library(plumber)
 library(readr)
+library(gbm)
 
 # running the back-end (APIs) ---
 r <- plumb("src/create_api.R")
