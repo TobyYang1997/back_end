@@ -8,7 +8,7 @@
 
 function(new_data) {
   
-  super_model <- read_rds("src/gbtree.rds")
+  super_model <- readr::read_rds("src/gbtree.rds")
   
   predict(super_model, new_data, type = "prob")
 
