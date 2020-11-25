@@ -2,14 +2,13 @@
 # Author: Yili Yang, Olajoke Oladipo, Wenxi Feng
 # Project: Prototyping Data Science Products
 # File: init__.R
-# Description: project initialisation
+# Description: project initialization
 ###################################################################################################
-# Input: config.R
-# Output: front end running logic
+# Input: create_api.R
+# Output: back end running logic
 ###################################################################################################
 
 # sourcing necessary files ----
-#source("src/scheduler.R")
 source("src/create_api.R")
 
 
